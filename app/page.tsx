@@ -53,8 +53,8 @@ export default function Home() {
           <div className='pt-20 lg:px-20 xl:px-25 2xl:px-30 py-5 justify-center h-300 grid gap-4 grid-cols-1 l:grid-flow-cols-2 1xl:grid-cols-4 2xl:grid-cols-4'>
            
             <div className='backdrop grid grid-cols-1 col-span-2 items-center  text-center  shadow-lg h-80  rounded-xl  transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-104 hover:bg-indigo-500 duration-300'>
-              <div class=" grid grid-cols-1  sm:grid-cols-2">
-    <p class="mb-3 text-white dark:text-gray-400 pt-10 2xl:pl-10">Waterfall - Waterfall is a user-friendly book tracking app designed to help avid readers organize and manage their reading journeys. With a simple and intuitive interface, users can easily track the books they have read, are currently reading, or plan to read in the future.</p>
+              <div className=" grid grid-cols-1  sm:grid-cols-2">
+    <p className="mb-3 text-white dark:text-gray-400 pt-10 2xl:pl-10">Waterfall - Waterfall is a user-friendly book tracking app designed to help avid readers organize and manage their reading journeys. With a simple and intuitive interface, users can easily track the books they have read, are currently reading, or plan to read in the future.</p>
 
               <div className="invisible md:visible mb-3  rotate-0 md:shrink-0 relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[300px] w-[200px]">
     <div class="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[72px] rounded-l-lg"></div>
