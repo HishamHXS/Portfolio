@@ -1,8 +1,7 @@
 "use client";
 import Head from 'next/head'
 import Sidebar from './sidebar';
-import Timeline from './timeline';
-import  './modes';
+// import Timeline from './timeline';
 import { useEffect, useState } from 'react';
 import { ClipLoader } from 'react-spinners';
 export default function Home() {
@@ -57,11 +56,11 @@ export default function Home() {
     <p className="mb-3 text-white dark:text-gray-400 pt-10 2xl:pl-10">Waterfall - Waterfall is a user-friendly book tracking app designed to help avid readers organize and manage their reading journeys. With a simple and intuitive interface, users can easily track the books they have read, are currently reading, or plan to read in the future.</p>
 
               <div className="invisible md:visible mb-3  rotate-0 md:shrink-0 relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[300px] w-[200px]">
-    <div class="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[72px] rounded-l-lg"></div>
-    <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[124px] rounded-l-lg"></div>
-    <div class="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[178px] rounded-l-lg"></div>
-    <div class="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -right-[17px] top-[142px] rounded-r-lg"></div>
-    <div class="rounded-[2rem] overflow-hidden w-[172px] h-[270px] bg-white dark:bg-gray-800">
+    <div className="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[72px] rounded-l-lg"></div>
+    <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[124px] rounded-l-lg"></div>
+    <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[178px] rounded-l-lg"></div>
+    <div className="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -right-[17px] top-[142px] rounded-r-lg"></div>
+    <div className="rounded-[2rem] overflow-hidden w-[172px] h-[270px] bg-white dark:bg-gray-800">
        
     </div>
     </div>

@@ -1,4 +1,3 @@
-import CV from '../app/Resources/CV.pdf';
 import { Document } from 'react-pdf';
 import {
     AiFillLinkedin,
@@ -19,7 +18,7 @@ const Sidebar = () => {
  
 );
 };
-const SidebarIcon = ({ icon, text = 'tooltip 💡' }) => (
+const SidebarIcon = ({ icon  , text = 'tooltip 💡' }) => (
     <div className="sidebar-icon group">
       {icon}
       <span className="sidebar-tooltip group-hover:scale-100">
